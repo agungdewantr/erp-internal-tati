@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-12-13 14:43:16.345325",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "requester",
+  "req_type",
+  "column_break_ajlqb",
+  "request_date",
+  "deadline",
+  "priority",
+  "section_break_3xkaa",
+  "design_of_purpose",
+  "detail_spesification",
+  "reference_link"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Document Number",
+   "options": "DOC-DR-.YYYY.-",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "default": "user",
+   "fieldname": "requester",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Requester",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "req_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Req Type",
+   "options": "Book Cover\nDecoration\nOther\nPoster\nWeb Design",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ajlqb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "now",
+   "fieldname": "request_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Request Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "deadline",
+   "fieldtype": "Date",
+   "label": "Deadline",
+   "reqd": 1
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority",
+   "options": "Low\nMedium\nUrgent",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_3xkaa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "design_of_purpose",
+   "fieldtype": "Data",
+   "label": "Design Of Purpose",
+   "reqd": 1
+  },
+  {
+   "fieldname": "detail_spesification",
+   "fieldtype": "Text",
+   "label": "Detail Spesification",
+   "max_height": "30px"
+  },
+  {
+   "fieldname": "reference_link",
+   "fieldtype": "Text",
+   "label": "Reference Link",
+   "max_height": "30px"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-13 14:49:18.676929",
+ "modified_by": "Administrator",
+ "module": "Internal Tati",
+ "name": "Design Request",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
