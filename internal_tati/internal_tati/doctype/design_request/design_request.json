@@ -16,6 +16,7 @@
   "deadline",
   "priority",
   "section_break_3xkaa",
+  "details",
   "design_of_purpose",
   "detail_spesification",
   "reference_link"
@@ -77,27 +78,36 @@
    "fieldtype": "Section Break"
   },
   {
+   "description": "Tentukan design yang anda butuhkan. ex. desain logo, brosur, situs web, atau sesuatu yang lain ?",
    "fieldname": "design_of_purpose",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "label": "Design Of Purpose",
+   "max_height": "50px",
    "reqd": 1
   },
   {
+   "description": "Pikirkan tentang elemen-elemen spesifik yang ingin Anda sertakan dalam desain tersebut. Misalnya, warna, gaya, teks, dan gambar apa yang perlu disertakan ?",
    "fieldname": "detail_spesification",
    "fieldtype": "Text",
    "label": "Detail Spesification",
-   "max_height": "30px"
+   "max_height": "50px"
   },
   {
+   "description": "Lampirkan link yang mendukung untuk pembuatan desain anda",
    "fieldname": "reference_link",
    "fieldtype": "Text",
    "label": "Reference Link",
-   "max_height": "30px"
+   "max_height": "50px"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Heading",
+   "label": "Details"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-13 14:49:18.676929",
+ "modified": "2024-12-16 08:02:49.085160",
  "modified_by": "Administrator",
  "module": "Internal Tati",
  "name": "Design Request",
