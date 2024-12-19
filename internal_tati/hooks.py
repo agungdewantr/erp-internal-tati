@@ -62,7 +62,7 @@ app_license = "MIT"
 # ------------
 
 # before_install = "internal_tati.install.before_install"
-# after_install = "internal_tati.install.after_install"
+# after_install = "internal_tati.patches.create_workspace.create_workspace"
 
 # Uninstallation
 # ------------

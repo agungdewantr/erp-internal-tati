@@ -1,0 +1,105 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"VjStFcIEME\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Internal Tati</span>\",\"col\":12}},{\"id\":\"SgNWi3Wezz\",\"type\":\"card\",\"data\":{\"card_name\":\"Marketing\",\"col\":4}},{\"id\":\"cnjCu_LjDo\",\"type\":\"card\",\"data\":{\"card_name\":\"Knowledge Management\",\"col\":4}},{\"id\":\"A8qWXRRNsY\",\"type\":\"card\",\"data\":{\"card_name\":\"Administration\",\"col\":4}}]",
+ "creation": "2024-12-17 10:01:59.624037",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-energy-points",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Internal Tati",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Marketing",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Design Request",
+   "link_count": 0,
+   "link_to": "Design Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Knowledge Management",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sharing",
+   "link_count": 0,
+   "link_to": "Sharing",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SOP and Policy",
+   "link_count": 0,
+   "link_to": "SOP and Policy",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Administration",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Letter",
+   "link_count": 0,
+   "link_to": "Letter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Letter Type",
+   "link_count": 0,
+   "link_to": "Letter Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-12-18 13:42:53.928331",
+ "modified_by": "Administrator",
+ "module": "Internal Tati",
+ "name": "Internal Tati",
+ "number_cards": [],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 0.0,
+ "shortcuts": [],
+ "title": "Internal Tati"
+}

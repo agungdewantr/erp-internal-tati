@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2024-12-18 08:53:28.600326",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "legal_type",
+  "date",
+  "regarding",
+  "column_break_v8mkg",
+  "to",
+  "behalf",
+  "code_legal_type",
+  "section_break_b18ho",
+  "body",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Series",
+   "options": ".code_legal_type./.###./PTTATI/.to./.MM./.YYYY",
+   "reqd": 1
+  },
+  {
+   "fieldname": "legal_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Legal Type",
+   "options": "Letter Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "regarding",
+   "fieldtype": "Data",
+   "label": "Regarding",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To",
+   "reqd": 1
+  },
+  {
+   "fieldname": "behalf",
+   "fieldtype": "Data",
+   "label": "Behalf",
+   "reqd": 1
+  },
+  {
+   "fieldname": "body",
+   "fieldtype": "Text Editor",
+   "label": "Body"
+  },
+  {
+   "fetch_from": "legal_type.code",
+   "fieldname": "code_legal_type",
+   "fieldtype": "Data",
+   "label": "Code Legal Type",
+   "options": "Letter Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Letter",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_v8mkg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_b18ho",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-12-18 09:16:40.350290",
+ "modified_by": "Administrator",
+ "module": "Internal Tati",
+ "name": "Letter",
+ "name_case": "UPPER CASE",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
