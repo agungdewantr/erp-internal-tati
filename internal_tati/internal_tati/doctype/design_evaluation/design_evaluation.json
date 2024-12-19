@@ -1,0 +1,151 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-12-16 08:57:27.895966",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "request_number",
+  "column_break_lqsjo",
+  "purpose",
+  "feedback",
+  "section_break_qmxk0",
+  "rating",
+  "creativity",
+  "communication",
+  "overall_rating",
+  "column_break_wa4ab",
+  "design_accuracy_and_suitability",
+  "working_time",
+  "amended_from",
+  "total_rating"
+ ],
+ "fields": [
+  {
+   "fieldname": "request_number",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Request Number",
+   "options": "Design Request",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_lqsjo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "request_number.design_of_purpose",
+   "fieldname": "purpose",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Purpose",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "feedback",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Feedback/Note",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_qmxk0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Heading",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "creativity",
+   "fieldtype": "Rating",
+   "label": "Creativity & Innovation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "communication",
+   "fieldtype": "Rating",
+   "label": "Communication Work Design",
+   "reqd": 1
+  },
+  {
+   "fieldname": "overall_rating",
+   "fieldtype": "Rating",
+   "label": "Overall Design Rating",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_wa4ab",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "design_accuracy_and_suitability",
+   "fieldtype": "Rating",
+   "label": "Design Accuracy and Suitability",
+   "reqd": 1
+  },
+  {
+   "fieldname": "working_time",
+   "fieldtype": "Rating",
+   "label": "Working Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Design Evaluation",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Document Number",
+   "options": "DE.DD.MM.YYYY.-",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_rating",
+   "fieldtype": "Rating",
+   "label": "Total Rating"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-12-17 15:43:33.412910",
+ "modified_by": "Administrator",
+ "module": "Internal Tati",
+ "name": "Design Evaluation",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
