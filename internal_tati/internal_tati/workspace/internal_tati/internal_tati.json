@@ -1,8 +1,17 @@
 {
  "charts": [],
- "content": "[{\"id\":\"VjStFcIEME\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Internal Tati</span>\",\"col\":12}},{\"id\":\"SgNWi3Wezz\",\"type\":\"card\",\"data\":{\"card_name\":\"Marketing\",\"col\":4}},{\"id\":\"cnjCu_LjDo\",\"type\":\"card\",\"data\":{\"card_name\":\"Knowledge Management\",\"col\":4}},{\"id\":\"A8qWXRRNsY\",\"type\":\"card\",\"data\":{\"card_name\":\"Administration\",\"col\":4}}]",
+ "content": "[{\"id\":\"VjStFcIEME\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Internal Tati</span>\",\"col\":12}},{\"id\":\"M51IBRhKK-\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Checkin Button\",\"col\":2}},{\"id\":\"7ALhcsOVv0\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Checkout Button\",\"col\":2}},{\"id\":\"dXqows5B9l\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"SgNWi3Wezz\",\"type\":\"card\",\"data\":{\"card_name\":\"Marketing\",\"col\":4}},{\"id\":\"cnjCu_LjDo\",\"type\":\"card\",\"data\":{\"card_name\":\"Knowledge Management\",\"col\":4}},{\"id\":\"A8qWXRRNsY\",\"type\":\"card\",\"data\":{\"card_name\":\"Administration\",\"col\":4}}]",
  "creation": "2024-12-17 10:01:59.624037",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Checkin Button",
+   "label": "Checkin Button"
+  },
+  {
+   "custom_block_name": "Checkout Button",
+   "label": "Checkout Button"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -90,7 +99,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-12-18 13:42:53.928331",
+ "modified": "2024-12-20 11:30:04.304978",
  "modified_by": "Administrator",
  "module": "Internal Tati",
  "name": "Internal Tati",
