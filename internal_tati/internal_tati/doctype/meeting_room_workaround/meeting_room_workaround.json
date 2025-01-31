@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-31 08:27:54.375370",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "to_do_list",
+  "pic",
+  "due_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "to_do_list",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "To Do List",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pic",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PIC",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Due Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-31 08:27:54.375370",
+ "modified_by": "Administrator",
+ "module": "Internal Tati",
+ "name": "Meeting Room Workaround",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
