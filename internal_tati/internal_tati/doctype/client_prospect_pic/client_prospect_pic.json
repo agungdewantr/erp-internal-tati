@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-06 17:59:38.135546",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name_pic",
+  "position",
+  "whatsapp",
+  "phone",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_pic",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Position",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "whatsapp",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Whatsapp",
+   "search_index": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "search_index": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone",
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-07 10:24:29.240938",
+ "modified_by": "Administrator",
+ "module": "Internal Tati",
+ "name": "Client Prospect PIC",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
